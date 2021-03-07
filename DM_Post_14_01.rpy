@@ -1,4 +1,4 @@
-## ElectroBasicsYT - CharlieFuu69 Creations! (2020)
+## ElectroBasicsYT - CharlieFuu69 Creations!
 ## Script Utility : Código para hacer Solicitudes Web en un juego Ren'Py
 
 ###############################################################
@@ -20,6 +20,8 @@
 
 ## Este código no funciona con hilos, por lo que puede generar detenciones en el juego.
 ## Para evitar el crasheo del juego, recomiendo usar "threading" para ejecutar las solicitudes.
+
+## Recomiendo revisar el archivo "DM_Post_14_02.rpy" en este repositorio. El código está mejor organizado.
 
 ## Obten el RAR con los archivos del módulo Requests, desde este link :
 ## https://mega.nz/file/4IljCILQ#da32pKUQ0QMha4_WesjoxuXt_qwHkNdXXEJcE4Uht04
