@@ -70,7 +70,7 @@ label start:
     ## Llama a la función, proporcionando la URL del JSON
     $ Request_Function("Escribe tu URL aquí")
 
-    ## PASO 2 : Mostrar el texto recibido en la sintaxis de Ren'Py
+    ## PASO 2 : Mostrar el texto recibido, interpolando en una cadena.
     "[Network_Data]"
 
     return # Fin del juego
