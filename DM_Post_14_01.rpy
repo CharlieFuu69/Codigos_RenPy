@@ -62,13 +62,13 @@ label start:
 
             network_status = False # Señala que no hay conexión exitosa
 
-    ## PASO 2 : Mostrar el texto recibido en la sintasis de Ren'Py
+    ## PASO 2 : Mostrar el texto recibido, interpolando en una cadena
     if network_status:
-        # Si 'network_status' devuelve True, mostrará el texto decodificado en el cuadro de diálogos
+        # Si 'network_status' es True, mostrará el texto decodificado en el cuadro de diálogos
         "[text_output]"
 
     else:
-        # Si 'network_status' devuelve False, no se mostrará la variable 'text'
+        # Si 'network_status' es False, no se mostrará la variable 'text'
         "No se obtuvo ninguna p*ta respuesta. Tu conexión es una auténtica mierda xD"
 
     return # Fin del juego
