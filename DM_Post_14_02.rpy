@@ -1,4 +1,3 @@
-## ElectroBasicsYT - CharlieFuu69 Creations! (2020)
 ## Script Utility : Código para hacer Solicitudes Web en un juego Ren'Py
 
 ###############################################################
