@@ -1,5 +1,5 @@
 # Codigos_RenPy
-Este será el repositorio de código que se muestren en el hilo ####"Programando Juegos VN con Ren'Py!"#### en el foro/red social de DitecnoMakers.
+Este será el repositorio de código que se muestren en el hilo "Programando Juegos VN con Ren'Py!" en el foro/red social de DitecnoMakers.
 
 
 ## Contenido
@@ -22,7 +22,7 @@ Archivos de este post :
 #### Post 18 : _Aún no disponible._
 
 
-## El hilo en DitecnoMakers
+## Hilo "Programando Juegos VN con Ren'Py!" en DitecnoMakers
 El primer y segundo post del hilo, son a modo de introducción. Visita el post 1 desde este link :
 
 * [Programando Juegos VN con Ren'Py! #1](https://ditecnomakers.com/programa-juegos-vn-con-renpy-1-que-es-renpy-a-que-tipo-de-juegos-esta-orientado-este-motor/)
