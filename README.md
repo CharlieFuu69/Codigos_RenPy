@@ -19,7 +19,11 @@ Archivos de este post :
 Archivos de este post :
 * [DM_Post_17.rpy](https://github.com/CharlieFuu69/Codigos_RenPy/blob/b97dd634f3a931480cb6421f10f5353f4e5d86b4/DM_Post_17.rpy)
 
-#### Post 18 : _Aún no disponible._
+#### Post 18 : _[Implementando un sistema de descargas In-Game con el módulo "WGET" (Python)](https://ditecnomakers.com/programando-juegos-vn-con-renpy-18/)_
+
+Archivos de este post :
+* [DM_Post_18_01.rpy](https://github.com/CharlieFuu69/Codigos_RenPy/blob/7d30b90fdee62f149277b54040ba5c5dfac0ef49/DM_Post_18_01.rpy)
+* Próximamente se subirá el código alternativo.
 
 
 ## Hilo "Programando Juegos VN con Ren'Py!" en DitecnoMakers
