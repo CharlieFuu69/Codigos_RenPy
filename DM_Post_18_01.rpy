@@ -1,12 +1,12 @@
 ## ElectroBasicsYT - CharlieFuu69 Creations!
-## Script Utility : Ddescargador de archivos con módulo WGET.
+## Script Utility : Descargador de archivos con módulo WGET.
 
 ###############################################################
 
 ## NOTAS DE ESTE ARCHIVO :
 
 ## Si quieres probar este archivo, haz un nuevo proyecto en Ren'Py y cuando se termine de crear,
-## borra el archivo "script.rpy" para que no te de problemas al ejecutar.
+## sustituye el archivo "script.rpy" por este archivo.
 
 ## WGET puede operar con URLs de rango HTTP y HTTPS. Si tu servidor o host no tiene certificados
 ## de seguridad, escribe las URL solo como HTTP.
