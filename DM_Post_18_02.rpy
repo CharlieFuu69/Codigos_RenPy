@@ -193,7 +193,7 @@ screen download_screen(url, out=None):
                     xpos 0.25
                     ypos 0.2
 
-                    add "IC_Warning" zoom 1.8 xalign 0.5 ypos 0.17
+                    ## add "IC_Warning" zoom 1.8 xalign 0.5 ypos 0.17
                     text "Hubo un error al descargar el archivo :(" xalign 0.5 ypos 0.48
                     textbutton "Volver al Menú Principal" action MainMenu() xalign 0.5 ypos 0.58
                     textbutton "Mostrar/Rastrear el error" action Function(Download_Action._raise_from_thread) xalign 0.5 ypos 0.68
@@ -209,7 +209,7 @@ screen download_screen(url, out=None):
                     xpos 0.25
                     ypos 0.2
 
-                    add "IC_Connecting" zoom 0.7 xalign 0.5 ypos 0.17
+                    ## add "IC_Connecting" zoom 0.7 xalign 0.5 ypos 0.17
                     text "¡Descarga Completa!" xalign 0.5 ypos 0.48
                     textbutton "Volver al Menú Principal" action MainMenu() xalign 0.5 ypos 0.58
         else:
@@ -223,7 +223,7 @@ screen download_screen(url, out=None):
                 xpos 0.25
                 ypos 0.2
 
-                add "IC_Connecting" zoom 0.7 xalign 0.5 ypos 0.1
+                ## add "IC_Connecting" zoom 0.7 xalign 0.5 ypos 0.1
                 text "Descargando recursos..." xalign 0.5 ypos 0.36
                 text "Progreso : {0} MB / {1} MB".format(Download_Action.MB_Actual, Download_Action.MB_Target) xalign 0.5 ypos 0.6
 
@@ -251,7 +251,7 @@ screen download_screen(url, out=None):
 ## de otro modo obtendrás un error.
 
 label start:
-    scene Game_Background
+    ## scene Game_Background
 
     $ link = "Escribe aquí tu URL"
     $ path = SEARCHPATH + "Escribe en esta string el nombre de tu archivo a descargar"
