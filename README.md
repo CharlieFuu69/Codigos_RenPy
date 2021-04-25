@@ -25,7 +25,7 @@ Archivos de este post :
 * [DM_Post_18_01.rpy](https://github.com/CharlieFuu69/Codigos_RenPy/blob/7d30b90fdee62f149277b54040ba5c5dfac0ef49/DM_Post_18_01.rpy)
 * [DM_Post_18_02.rpy - Código alternativo](https://github.com/CharlieFuu69/Codigos_RenPy/blob/c7f9837bc93f21a1f3609010304473f30982b8a0/DM_Post_18_02.rpy)
 
-#### Post #19 : _[Extracción de Searchpaths (Android y Windows) en juegos Ren'Py (Pronto estará disponible)](https://ditecnomakers.com/programando-juegos-vn-con-renpy-19/)_
+#### Post #19 : _[Extracción de Searchpaths (Android y Windows) en juegos Ren'Py](https://ditecnomakers.com/programando-juegos-vn-con-renpy-19/)_
 
 Archivos de este post :
 * [DM_Post_19.rpy](https://github.com/CharlieFuu69/Codigos_RenPy/blob/0b494f3c6d9e658839da4cf1095252e8a726980b/DM_Post_19.rpy)
