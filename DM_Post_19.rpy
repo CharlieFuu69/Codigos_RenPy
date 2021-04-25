@@ -15,7 +15,7 @@
 ## El código alternativo del sistema de descargas consiste en agregar este mismo código para
 ## realizar la descarga del archivo pero en el interior de la carpeta /game. Encuéntralo en
 ## el siguiente link de GitHub!
-## Link :
+## Link : https://github.com/CharlieFuu69/Codigos_RenPy/blob/0b494f3c6d9e658839da4cf1095252e8a726980b/DM_Post_18_02.rpy
 
 ##############################################################
 ## CÓDIGO DETECTOR HÍBRIDO DE SEARCHPATHS
