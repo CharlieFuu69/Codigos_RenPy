@@ -14,7 +14,7 @@
 ## como PyPI, es posible que la descarga presente el error "no module named termios".
 ## He modificado el código de WGET para que no hayan problemas en Android.
 ## Adjuntaré el script "wget.py" para que lo puedas descargar.
-## Link :
+## Link : https://mega.nz/file/xVcnUYxI#iUg3e7tQnl5oJaToLsL4lANNc_jtCVGzW7jsWB90lGQ
 
 ## Si quieres probar este archivo, haz un nuevo proyecto en Ren'Py y cuando se termine de crear,
 ## borra el archivo "script.rpy" para que no te de problemas al ejecutar. Recuerda que no pueden
