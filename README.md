@@ -31,7 +31,7 @@ Archivos de este post :
 * [DM_Post_19.rpy](https://github.com/CharlieFuu69/Codigos_RenPy/blob/0b494f3c6d9e658839da4cf1095252e8a726980b/DM_Post_19.rpy)
 
 
-#### Post #20 : _Implementando un Verificador Online de Actualizaciones con el módulo "Requests" (Python) (Pronto)_
+#### Post #20 : _[Implementando un Verificador Online de Actualizaciones con el módulo "Requests" (Python)](https://ditecnomakers.com/programando-juegos-vn-con-renpy-20/)_
 
 Archivos de este post :
 * [DM_Post_20.rpy](https://github.com/CharlieFuu69/Codigos_RenPy/blob/44a1ce8be870b60987d403818c3794b42fa5ba28/DM_Post_20.rpy)
