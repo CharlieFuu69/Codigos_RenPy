@@ -102,7 +102,8 @@ screen Update_Alert():
 #############################################################
 
 label splashscreen:
-    scene Game_Background
+    ## Agrega una imagen si así lo desas
+    ## scene Game_Background
 
     ## CONDICIONAL : ¿Hay una actualización disponible?
     if persistent.Update_Beacon:
