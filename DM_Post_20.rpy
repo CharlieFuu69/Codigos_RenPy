@@ -111,6 +111,3 @@ label splashscreen:
         pass
 
     return
-
-label start:
-    return
