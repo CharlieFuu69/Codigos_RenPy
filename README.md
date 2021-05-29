@@ -35,6 +35,7 @@ Archivos de este post :
 
 Archivos de este post :
 * [DM_Post_20.rpy](https://github.com/CharlieFuu69/Codigos_RenPy/blob/05d75647f71d84c248b991780411c81b464c2e79/DM_Post_20.rpy)
+* [control_de_versiones.json](https://github.com/CharlieFuu69/Codigos_RenPy/blob/f488cbffbbd11b7aed80db784e70dfc1ec60c1e2/control_de_versiones.json)
 
 
 ## Hilo "Programando Juegos VN con Ren'Py!" en DitecnoMakers
