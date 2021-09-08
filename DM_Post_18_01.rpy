@@ -5,6 +5,10 @@
 
 ## NOTAS DE ESTE ARCHIVO :
 
+## ¡RECOMENDADO! : Si quieres usar este descargador de archivos en una compilación para Android,
+## utiliza el "Script alternativo" de este descargador.
+## Link : https://github.com/CharlieFuu69/Codigos_RenPy/blob/5bd25e5ee3f8053a709201ead41ef698620644fd/DM_Post_18_02.rpy
+
 ## Si quieres probar este archivo, haz un nuevo proyecto en Ren'Py y cuando se termine de crear,
 ## sustituye el archivo "script.rpy" por este archivo.
 
@@ -33,6 +37,7 @@ init python:
     import threading ## Procesamiento en hilos
     import wget ## El módulo que ejecuta las descargas
     from os import path ## Modulo para asignar las rutas de salida
+    import ssl
 
     class WGET_Assets_Downloader(threading.Thread):
 
@@ -104,6 +109,8 @@ init python:
 
         def run(self):
             """Inicia la descarga"""
+
+            ssl._create_default_https_context = ssl._create_unverified_context
             try:
                 _result_fn = wget.download(
                     self.__url,
@@ -145,8 +152,8 @@ screen download_screen(url, out=None):
                     text "Hubo un error al descargar el archivo :(" xalign 0.5 ypos 0.48
                     textbutton "Volver al Menú Principal" action MainMenu() xalign 0.5 ypos 0.58
 
-                    ## Añade este botón para observar con detalle el error.
-                    ## textbutton "Mostrar/Rastrear el error" action Function(Download_Action._raise_from_thread) xalign 0.5 ypos 0.68
+                    ## Esta línea es opcional. Este botón mostrará el error como un Traceback de Ren'Py
+                    textbutton "Mostrar/Rastrear el error" action Function(Download_Action._raise_from_thread) xalign 0.5 ypos 0.68
 
             else:
                 ## Bloque de código que se muestra cuando la descarga finaliza.
@@ -204,7 +211,7 @@ label start:
     # scene Game_Background
 
     $ link = "Escribe aquí tu URL"
-    $ path = "Escribe aquí el nombre de tu archivo a descargar"
+    $ path = "Escribe en esta string el nombre de tu archivo a descargar"
 
     ## Llama a la screen
     ## Parámetros en orden : URL del archivo - Ruta de salida o nombre del archivo
