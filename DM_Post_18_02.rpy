@@ -281,3 +281,4 @@ label start:
         "Reproduciendo audio...\nRuta de archivo : [path]"
 
         jump start
+        
