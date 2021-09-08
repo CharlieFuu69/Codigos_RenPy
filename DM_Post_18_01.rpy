@@ -185,7 +185,7 @@ screen download_screen(url, out=None):
                         xmaximum 350
                         value AnimatedValue(Download_Action.status, 1.)
 
-                    text "[{0:.1%}]".format(Download_Action.status)
+                    text "[[{0:.1%}]".format(Download_Action.status)
     else:
         ## Bloque de código que se muestra cuando aún no se inicia la descarga.
         frame:
