@@ -85,6 +85,7 @@ init python:
     import threading ## Procesamiento en hilos
     import wget ## El módulo que ejecuta las descargas
     from os import path ## Modulo para asignar las rutas de salida
+    import ssl
 
     class WGET_Assets_Downloader(threading.Thread):
 
@@ -156,6 +157,7 @@ init python:
 
         def run(self):
             """Inicia la descarga"""
+            ssl._create_default_https_context = ssl._create_unverified_context
             try:
                 _result_fn = wget.download(
                     self.__url,
@@ -235,7 +237,7 @@ screen download_screen(url, out=None):
                         xmaximum 350
                         value AnimatedValue(Download_Action.status, 1.)
 
-                    text "[{0:.1%}]".format(Download_Action.status)
+                    text "[[{0:.1%}]".format(Download_Action.status)
     else:
         ## Bloque de código que se muestra cuando aún no se inicia la descarga.
         frame:
