@@ -11,7 +11,7 @@ Los archivos que actualmente están presentes en el repositorio, se distribuyen 
 | Scripts de este post |
 | --- |
 | _1. [DM_Post_14_01.rpy](https://github.com/CharlieFuu69/Codigos_RenPy/blob/cee1e07f4dba8b87b6d38f3a8f6fe09c308b8b5d/DM_Post_14/DM_Post_14_01.rpy)_ |
-| _2. [DM_Post_14_02.rpy - Código alternativo](https://github.com/CharlieFuu69/Codigos_RenPy/blob/cee1e07f4dba8b87b6d38f3a8f6fe09c308b8b5d/DM_Post_14/DM_Post_14_02.rpy)_ |
+| _2. [DM_Post_14_02.rpy - Uso recomendado](https://github.com/CharlieFuu69/Codigos_RenPy/blob/cee1e07f4dba8b87b6d38f3a8f6fe09c308b8b5d/DM_Post_14/DM_Post_14_02.rpy)_ |
 
 #### Post 16 : _[Implementando un Countdown para Menús de Elección / Toma de Decisiones (Barra animada)](https://ditecnomakers.com/programando-juegos-vn-con-renpy-16/)_
 | Scripts de este post |
@@ -27,7 +27,8 @@ Los archivos que actualmente están presentes en el repositorio, se distribuyen 
 | Scripts de este post |
 | --- |
 | _1. [DM_Post_18_01.rpy](https://github.com/CharlieFuu69/Codigos_RenPy/blob/cee1e07f4dba8b87b6d38f3a8f6fe09c308b8b5d/DM_Post_18/DM_Post_18_01.rpy)_ |
-| _2. [DM_Post_18_02.rpy - Código alternativo](https://github.com/CharlieFuu69/Codigos_RenPy/blob/cee1e07f4dba8b87b6d38f3a8f6fe09c308b8b5d/DM_Post_18/DM_Post_18_02.rpy)_ |
+| _2. [DM_Post_18_02.rpy - Uso recomendado](https://github.com/CharlieFuu69/Codigos_RenPy/blob/cee1e07f4dba8b87b6d38f3a8f6fe09c308b8b5d/DM_Post_18/DM_Post_18_02.rpy)_ |
+| _3. [wget.py - Módulo de descargas](https://github.com/CharlieFuu69/Codigos_RenPy/blob/4a6259bb56f0b13542f5fd93c191c9e6a07751c0/DM_Post_18/wget.py)_ |
 
 #### Post #19 : _[Extracción de Searchpaths (Android y Windows) en juegos Ren'Py](https://ditecnomakers.com/programando-juegos-vn-con-renpy-19/)_
 | Scripts de este post |
