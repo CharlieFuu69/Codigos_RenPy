@@ -14,6 +14,9 @@ to make command line interface intuitive for new people.
 Public domain by anatoly techtonik <techtonik@gmail.com>
 Also available under the terms of MIT license
 Copyright (c) 2010-2015 anatoly techtonik
+
+[WGET ha sido modificado para que no presente problemas en
+la descarga de archivos en Android, desde un juego Ren'Py]
 """
 
 __version__ = "3.2"
