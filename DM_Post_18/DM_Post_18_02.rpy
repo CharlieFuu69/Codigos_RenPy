@@ -1,23 +1,11 @@
 ## ElectroBasicsYT - CharlieFuu69 Creations!
 ## Script Utility : Descargador de archivos con módulo WGET. (Código recomendado)
 
+## Por favor, lee el README de la carpeta "DM_Post_18" para entender y usar
+## correctamente el sistema de descargas
+
 ###############################################################
-
-## NOTAS DE ESTE ARCHIVO :
-
-## IMPORTANTE : Este archivo es una modificación del sistema de descargas del Post #18.
-## Este a diferencia del código anterior, puede ejecutar descargas tanto en Windows como
-## también en Android, ya que se ha aplicado un detector híbrido de Searchpaths, el cual
-## provee la ruta de descarga según el sistema operativo donde esté arrancando el juego.
-
-## IMPORTANTE PARA COMPILAR EN ANDROID : Si descargas el módulo WGET desde webs
-## como PyPI, es posible que en Ren'Py se presente la excepción "no module named termios".
-## La versión modificada de WGET la puedes encontrar en esta URL :
-## >>> https://github.com/CharlieFuu69/Codigos_RenPy/blob/e830689c6162d245bae5edbdceb7d9848639cc93/DM_Post_18/wget.py
-
-#############################################################
 ## SECCIÓN 1 : DETECTOR HÍBRIDO DE SEARCHPATH
-#############################################################
 
 init python:
     ## Desde aquí se puede incrustar código escrito en Python
@@ -62,7 +50,6 @@ init python:
 
     ############################################################
     ## SECCIÓN 2 : SISTEMA DE DESCARGAS CON WGET.
-    ############################################################
 
     import threading ## Procesamiento en hilos
     import wget ## El módulo que ejecuta las descargas
@@ -190,7 +177,10 @@ screen download_screen(url, out=None):
 
                 add "IC_Connecting" zoom 0.7 xalign 0.5 ypos 0.17
                 text "¡Descarga Completa!" xalign 0.5 ypos 0.48
-                textbutton "Volver al Menú Principal" action MainMenu() xalign 0.5 ypos 0.58
+                
+                ## Para que Ren'Py pueda leer scripts nuevos descargados, es necesario
+                ## que el juego se reinicie.
+                textbutton "Reiniciar el juego" action Function(renpy.quit, relaunch = True, status = 0, save = False) xalign 0.5 ypos 0.58
     else:
         ## Bloque de código que se muestra cuando hay una descarga en curso.
         frame:
@@ -213,7 +203,9 @@ screen download_screen(url, out=None):
 
                 text "[[{0:.1%}]".format(Download_Action.status)
 
-## Aquí empieza tu juego
+############################################################
+## SECCIÓN 4 : EJEMPLO DE USO (totalmente funcional al aplicar este script directamente)
+
 ## ADVERTENCIA : Si ya posees un "label start" en tu código, omite el "label start" que verás acá
 ## de otro modo obtendrás un error.
 
