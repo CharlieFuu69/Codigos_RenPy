@@ -176,77 +176,60 @@ init python:
 
 screen download_screen(url, out=None):
 
+    ## Esta screen ha sido modificada. Cuando esta screen sea llamada, la descarga iniciará
+    ## de inmediato.
+
     ## Invoca a la clase y pasa los parámetros de la Screen como sus argumentos.
     default Download_Action = WGET_Assets_Downloader(url, out)
 
-    ## Indica si la descarga ha iniciado.
-    default _Download_Activity = False
+    on "show" action Function(Download_Action.start)
 
-    showif _Download_Activity:
-        showif Download_Action.download_is_finished():
-            showif Download_Action._has_exception():
-                ## Bloque de código que se muestra cuando ocurre un error en la descarga.
-                frame:
-                    xmaximum 700
-                    ymaximum 400
-                    xsize 700
-                    ysize 400
-
-                    xpos 0.25
-                    ypos 0.2
-
-                    ## add "IC_Warning" zoom 1.8 xalign 0.5 ypos 0.17
-                    text "Hubo un error al descargar el archivo :(" xalign 0.5 ypos 0.48
-                    textbutton "Volver al Menú Principal" action MainMenu() xalign 0.5 ypos 0.58
-                    textbutton "Mostrar/Rastrear el error" action Function(Download_Action._raise_from_thread) xalign 0.5 ypos 0.68
-
-            else:
-                ## Bloque de código que se muestra cuando la descarga finaliza.
-                frame:
-                    xmaximum 700
-                    ymaximum 400
-                    xsize 700
-                    ysize 400
-
-                    xpos 0.25
-                    ypos 0.2
-
-                    ## add "IC_Connecting" zoom 0.7 xalign 0.5 ypos 0.17
-                    text "¡Descarga Completa!" xalign 0.5 ypos 0.48
-                    textbutton "Volver al Menú Principal" action MainMenu() xalign 0.5 ypos 0.58
-        else:
-            ## Bloque de código que se muestra cuando hay una descarga en curso.
+    showif Download_Action.download_is_finished():
+        showif Download_Action._has_exception():
+            ## Bloque de código que se muestra cuando ocurre un error en la descarga.
             frame:
-                xmaximum 700
-                ymaximum 400
                 xsize 700
                 ysize 400
-
                 xpos 0.25
                 ypos 0.2
 
-                ## add "IC_Connecting" zoom 0.7 xalign 0.5 ypos 0.1
-                text "Descargando recursos..." xalign 0.5 ypos 0.36
-                text "Progreso : {0} MB / {1} MB".format(Download_Action.MB_Actual, Download_Action.MB_Target) xalign 0.5 ypos 0.6
+                add "IC_Warning" zoom 1.8 xalign 0.5 ypos 0.17
+                text "Hubo un error al descargar el archivo :(" xalign 0.5 ypos 0.48
+                textbutton "Volver al Menú Principal" action MainMenu() xalign 0.5 ypos 0.58
+                textbutton "Mostrar/Rastrear el error" action Function(Download_Action._raise_from_thread) xalign 0.5 ypos 0.68
 
-                hbox:
-                    xalign 0.5
-                    ypos 0.73
-                    spacing 20
-                    bar:
-                        xmaximum 350
-                        value AnimatedValue(Download_Action.status, 1.)
+        else:
+            ## Bloque de código que se muestra cuando la descarga finaliza.
+            frame:
+                xsize 700
+                ysize 400
+                xpos 0.25
+                ypos 0.2
 
-                    text "[[{0:.1%}]".format(Download_Action.status)
+                add "IC_Connecting" zoom 0.7 xalign 0.5 ypos 0.17
+                text "¡Descarga Completa!" xalign 0.5 ypos 0.48
+                textbutton "Volver al Menú Principal" action MainMenu() xalign 0.5 ypos 0.58
     else:
-        ## Bloque de código que se muestra cuando aún no se inicia la descarga.
+        ## Bloque de código que se muestra cuando hay una descarga en curso.
         frame:
-            xalign 0.5 yalign 0.5
-            button:
-                action [
-                Function(Download_Action.start),
-                SetScreenVariable("_Download_Activity", True)]
-                text _("Iniciar descarga") style "button_text"
+            xsize 700
+            ysize 400
+            xpos 0.25
+            ypos 0.2
+
+            add "IC_Connecting" zoom 0.7 xalign 0.5 ypos 0.1
+            text "Descargando recursos..." xalign 0.5 ypos 0.36
+            text "Progreso : %.2f MB / %.2f MB" % (Download_Action.MB_Actual, Download_Action.MB_Target) xalign 0.5 ypos 0.6
+
+            hbox:
+                xalign 0.5
+                ypos 0.73
+                spacing 20
+                bar:
+                    xmaximum 350
+                    value AnimatedValue(Download_Action.status, 1.)
+
+                text "[[{0:.1%}]".format(Download_Action.status)
 
 ## Aquí empieza tu juego
 ## ADVERTENCIA : Si ya posees un "label start" en tu código, omite el "label start" que verás acá
