@@ -1,5 +1,5 @@
 ## ElectroBasicsYT - CharlieFuu69 Creations!
-## Script Utility : Descargador de archivos con módulo WGET. (Código Alternativo)
+## Script Utility : Descargador de archivos con módulo WGET. (Código recomendado)
 
 ###############################################################
 
@@ -11,27 +11,9 @@
 ## provee la ruta de descarga según el sistema operativo donde esté arrancando el juego.
 
 ## IMPORTANTE PARA COMPILAR EN ANDROID : Si descargas el módulo WGET desde webs
-## como PyPI, es posible que la descarga presente el error "no module named termios".
-## He modificado el código de WGET para que no hayan problemas en Android.
-## Adjuntaré el script "wget.py" para que lo puedas descargar.
-## Link : https://mega.nz/file/xVcnUYxI#iUg3e7tQnl5oJaToLsL4lANNc_jtCVGzW7jsWB90lGQ
-
-## Si quieres probar este archivo, haz un nuevo proyecto en Ren'Py y cuando se termine de crear,
-## borra el archivo "script.rpy" para que no te de problemas al ejecutar. Recuerda que no pueden
-## haber dos "label start" dentro de un juego Ren'Py.
-
-## WGET puede operar con URLs de rango HTTP y HTTPS. Si tu servidor o host no tiene certificados
-## de seguridad, escribe las URL solo como HTTP.
-
-## Si no tienes para costear un host, hazte una cuenta en 000Webhost. Es un host gratuito que
-## ofrece mas o menos 300 MB de espacio en disco y 3 GB de ancho de banda mensual.
-## Link : https://www.000webhost.com/
-
-## Este código ejecuta la descarga de un archivo usando hilos para no interrumpir el funcionamiento
-## de Ren'Py.
-
-## Todas las imágenes agregadas con "add" y "scene" han sido comentadas para evitar problemas
-## en el código. Si posees iconos en tus archivos, puedes añadirlos con "add".
+## como PyPI, es posible que en Ren'Py se presente la excepción "no module named termios".
+## La versión modificada de WGET la puedes encontrar en esta URL :
+## >>> https://github.com/CharlieFuu69/Codigos_RenPy/blob/e830689c6162d245bae5edbdceb7d9848639cc93/DM_Post_18/wget.py
 
 #############################################################
 ## SECCIÓN 1 : DETECTOR HÍBRIDO DE SEARCHPATH
