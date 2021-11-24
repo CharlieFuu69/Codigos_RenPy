@@ -1,8 +1,10 @@
 ## ElectroBasicsYT - CharlieFuu69 Creations!
 ## Script Utility : Descargador de archivos con módulo WGET. (Código recomendado)
 
+## Este script es completamente funcional. Puedes incluirlo sin problemas en la
+## carpeta "/game" de tu proyecto.
 ## Por favor, lee el README de la carpeta "DM_Post_18" para entender y usar
-## correctamente el sistema de descargas
+## correctamente el sistema de descargas.
 
 ###############################################################
 ## SECCIÓN 1 : DETECTOR HÍBRIDO DE SEARCHPATH
