@@ -10,13 +10,13 @@ Te recomiendo que uses la versión modificada de "WGET" con el que no tendrás p
 
 ### Instrucciones para implementar el sistema de descargas :
 
-* __Paso 1 : Instalación de WGET en tu juego__
+* __1. Instalación de WGET en tu juego :__
 Descarga WGET desde la URL señalada en el apartado "Importante para Ports de Ren'Py (Android)". Al descargarlo, crea una carpeta llamada `python-packages` y coloca el archivo `wget.py` en su interior.
 
-* __Paso 2 : Instalación del sistema de descargas__
+* __2. Instalación del sistema de descargas :__
 Descarga el script que contiene el sistema de descargas y colócalo en el interior de la carpeta `game` de tu proyecto.
 
-* __Paso 3 : ¡Cuidado con el "label start"!__
+* __3. ¡Cuidado con el "label start"! :__
 El script del sistema de descargas ofrecido en este repositorio, trae consigo un fragmento de muestra de cómo se puede emplear las descargas dentro del `label start`.
 Si vas a instalar el sistema de descargas en un proyecto que ya estás creando, reacomoda la llamada de la screen `download_screen()` en el interior del código de tu juego, según te sea más cómodo, y elimina el `label start` del script que contiene el sistema de descargas.
 ¡No puedes definir más de 1 `label start"` en tu juego! ¡Eso te arrojará una excepción!
