@@ -1,4 +1,13 @@
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa] [![RenPy][renpy-shield]][cc-by-sa]
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[renpy]: https://renpy.org/
+[dmakers]: https://ditecnomakers.com
+
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/Licencia-CC--BY--SA%204.0-brightgreen
+[renpy-shield]: https://img.shields.io/badge/Software-Ren'Py-red
+[dmakers-shield]: https://img.shields.io/badge/Foro-DitecnoMakers-blue
+
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa] [![RenPy][renpy-shield]][renpy] [![DMakers][dmakers-shield]][dmakers]
 
 # Codigos_RenPy
 Este será el repositorio de código que se muestren en el hilo "Programando Juegos VN con Ren'Py!" en el foro/red social de DitecnoMakers.
@@ -33,6 +42,10 @@ Scripts de este post :
 Scripts de este post :
 * _[Carpeta DM_Post_20](https://github.com/CharlieFuu69/Codigos_RenPy/tree/master/DM_Post_20)_
 
+#### Post #22 : _Sistema de descargas con WGET + Soporte de descargas de Mediafire (Aún no disponible)_
+Scripts de este post :
+* _(Actualizando...)_
+
 ---
 
 ## Hilo "Programando Juegos VN con Ren'Py!" en DitecnoMakers
@@ -46,10 +59,4 @@ El primer y segundo post del hilo, son a modo de introducción. Visita el post 1
 
 Este repositorio está licenciado con
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
-
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
-
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
-[cc-by-sa-shield]: https://img.shields.io/badge/Licencia-CC--BY--SA%204.0-brightgreen
-[renpy-shield]: https://img.shields.io/badge/Software-Ren'Py-red
