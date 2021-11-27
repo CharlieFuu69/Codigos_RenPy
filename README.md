@@ -42,9 +42,9 @@ Scripts de este post :
 Scripts de este post :
 * _[Carpeta DM_Post_20](https://github.com/CharlieFuu69/Codigos_RenPy/tree/master/DM_Post_20)_
 
-#### Post #22 : _Sistema de descargas con WGET + Soporte de descargas de Mediafire (Aún no disponible)_
+#### Post #22 : _[Sistema de descargas con "WGET" + Soporte de descargas de Mediafire](https://ditecnomakers.com/programando-juegos-vn-con-renpy-22/)_
 Scripts de este post :
-* _(Actualizando...)_
+* _[Carpeta DM_Post_22](https://github.com/CharlieFuu69/Codigos_RenPy/tree/master/DM_Post_22)_
 
 ---
 
