@@ -59,4 +59,5 @@ El primer y segundo post del hilo, son a modo de introducción. Visita el post 1
 
 Este repositorio está licenciado con
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
