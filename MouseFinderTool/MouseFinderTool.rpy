@@ -1,5 +1,5 @@
 ## CharlieFuu69
-## Coordinate Finder Tool
+## MouseFinderTool
 
 ## Utilidad para rastrear la posición del mouse en la interfaz de un juego Ren'Py.
 
@@ -82,7 +82,7 @@ screen ShowDetails():
 
                 vbox:
                     xalign 0.5 ypos 15
-                    text "CharlieFuu69 - Mouse Finder Tool" xalign 0.5 color "#ff0"
+                    text "CharlieFuu69 - MouseFinderTool" xalign 0.5 color "#ff0"
                     text "[[Esta ventana es arrastrable]" xalign 0.5 italic True
 
                 vbox:
