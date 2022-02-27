@@ -81,13 +81,14 @@ screen ShowDetails():
                 xysize(370, 280)
 
                 vbox:
-                    pos(15, 15)
-                    spacing 10
-                    vbox:
-                        text "CharlieFuu69 - Mouse Finder Tool" xalign 0.5 color "#ff0"
-                        text "[[Esta ventana es arrastrable]" xalign 0.5 italic True
+                    xalign 0.5 ypos 15
+                    text "CharlieFuu69 - Mouse Finder Tool" xalign 0.5 color "#ff0"
+                    text "[[Esta ventana es arrastrable]" xalign 0.5 italic True
 
-                    null height 10
+                vbox:
+                    pos(15, 100)
+                    spacing 10
+
                     vbox:
                         text "Coordenadas en píxeles" color "#ff0"
                         text "X: %spx / Y: %spx" % (getcf.get_pos()[0][0], getcf.get_pos()[0][1])
@@ -96,12 +97,12 @@ screen ShowDetails():
                         text "Coordenadas relativas" color "#ff0"
                         text "X: %s / Y: %s" % (getcf.get_pos()[1][0], getcf.get_pos()[1][1])
 
-                    textbutton "{size=18}Ocultar ventana{/size}" action [SetScreenVariable("getcf_show", False),
-                    Function(renpy.notify, "Presiona la tecla \"C\" para mostrar la ventana nuevamente")] xalign 0.5
+                textbutton "{size=18}Ocultar ventana{/size}" action [SetScreenVariable("getcf_show", False),
+                Function(renpy.notify, "Presiona la tecla \"C\" para mostrar la ventana nuevamente")] align(0.5, 0.95)
 
     key "c" action SetScreenVariable("getcf_show", True)
     key "r" action Function(getcf.save_in_textfile)
-
+    
 style cft_text:
     size 18
 
