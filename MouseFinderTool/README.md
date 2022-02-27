@@ -23,7 +23,7 @@ Por supuesto, para tu comodidad, el recuadro se puede arrastrar y ocultar de la 
 ### Algunos keybindings para usar MouseFinderTool :
 
 * __C :__ Muestra nuevamente el recuadro en caso de que lo hayas ocultado.
-* __R :__ Registra las coordenadas en un archivo TXT. Este archivo TXT se guarda en la carpeta base de tu proyecto, con el nombre `mouse_log.txt`
+* __R :__ Registra las coordenadas actuales en un archivo TXT. Este archivo TXT se guarda en la carpeta base de tu proyecto, con el nombre `mouse_log.txt`
 
 ---
 
