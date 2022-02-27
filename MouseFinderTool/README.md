@@ -4,6 +4,9 @@
 Hay momentos en que necesitamos posicionar un displayable en el juego y concurrimos a probar coordenadas al azar para ver en donde colocar finalmente ese displayable. Bueno, te diré que eso es una completa pérdida de tiempo, y este script tiene la misión de ayudarte en eso.
 La labor de este script es mostrarte las coordenadas actuales del cursor del mouse en la pantalla del juego, lo que puede ayudar a economizar tiempo al momento de posicionar objetos en la UI.
 
+* [Descarga la herramienta desde aquí](https://github.com/CharlieFuu69/Codigos_RenPy/blob/master/MouseFinderTool/MouseFinderTool.rpyc)
+* [Código fuente de la herramienta](https://github.com/CharlieFuu69/Codigos_RenPy/blob/master/MouseFinderTool/MouseFinderTool.rpy)
+
 ---
 
 ### ¿Cómo funciona? :
